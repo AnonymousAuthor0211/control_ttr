@@ -233,8 +233,7 @@ The system uses a multi-layer architecture:
 1. **Layer 1a (Coarse Selection)**: Polarity + RSC rank-sum fusion
 2. **Layer 1b (Fine Veto)**: Quality gates (Polarity, Sharpness, Consensus, LS-Margin)
 3. **Layer 2 (LFA Refinement)**: Spectral smoothing + Feature boosting
- [ WIRED IN : DEFAULT DISABLED ]
-4. **Layer 3 (FDR Validation)**: False Discovery Rate control
+4. **Layer 3 (FDR Validation)**: False Discovery Rate control [ WIRED IN : DEFAULT DISABLED ]
 
 ## License
 
